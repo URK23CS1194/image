@@ -1,0 +1,12 @@
+Open Visual Studio Code and create a new Flutter project.
+Create an assets folder inside the project.
+Create an images folder inside the assets folder.
+Add three images representing Ooty, Kodaikanal and Kanyakumari.
+Open the pubspec.yaml file and configure the image assets path.
+Save the file and execute flutter pub get to load the assets.
+Open main.dart and import the Flutter Material package.
+Create a MaterialApp and a Scaffold with an AppBar titled Tamil Nadu Tourism Gallery.
+Use GridView.count() with crossAxisCount: 2 to arrange the images in two columns.
+Use Image.asset() to display the tourist destination images and Text() to display their names.
+Run the application using flutter run.
+Verify that all three images are displayed properly with their destination names.
